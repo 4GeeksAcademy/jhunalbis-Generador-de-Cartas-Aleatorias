@@ -1,5 +1,35 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+
+#card-container {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+#number {
+    font-size: 100px;
+    align-self: center;
+}
+
+#bottom-suit {
+    transform: rotate(180deg);
+    text-align: left;
+}
+
+#top-suit, #bottom-suit {
+    font-size: 70px;
+    line-height: 1;
+      
+
 }
